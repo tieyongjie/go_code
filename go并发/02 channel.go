@@ -15,7 +15,9 @@ func sum(s []int, c chan int) {
 }
 
 func main() {
+	// 创建[7 2 8 -9 4 0] 数组
 	s := []int{7, 2, 8, -9, 4, 0}
+	//fmt.Println(s)
 	c := make(chan int)
 	go sum(s[:len(s)/2], c)
 	x := <-c

@@ -9,4 +9,5 @@ func main() {
 	var ptr = &num
 	fmt.Printf("ptr=%v\n", ptr)
 	fmt.Printf("*ptr=%v\n", *ptr)
+	fmt.Println()
 }

@@ -9,4 +9,5 @@ func main() {
 		}
 		fmt.Println()
 	}
+	fmt.Scanf("请输入:")
 }
