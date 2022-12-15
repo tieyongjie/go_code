@@ -5,7 +5,7 @@ import "fmt"
 type MyInt int
 
 func (m MyInt) SayHello() {
-	fmt.Println("hello, 我是一个老六(int)")
+	fmt.Println("hello, 我是一个老六(m1)")
 }
 func main() {
 	var m1 MyInt
